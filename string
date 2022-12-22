@@ -1,0 +1,29 @@
+package suphyp.tutorial.sup;
+
+public class Student5 {
+	
+	int id;
+	String name;
+	int rollno;
+
+	public static void  Student5(int i ,String n) {
+		id=i;
+		name=n;
+		
+	}
+	 public Student5(int i,String S,int a) {
+		 id=i;
+		 name=S;
+		 rollno=a;
+		
+	 }
+
+	 public static void main(String[] args)
+	 {
+	 Student5(10,"sup");
+	 Student5(10,"sup",10);
+	
+		 
+	 }
+
+}
